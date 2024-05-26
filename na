@@ -1,9 +1,8 @@
 mkdir Programa-git
 cd Programa-git
 git init
-git remote add origin https://github.com/tu_usuario/Programa-
-git.git://github.com/tu_usuario/Programa-git.git
-git remote -v-v
+git remote add origin https://github.com/tu_usuario/Programa-git
+git remote -v
 echo "# Programa-git" > README.md
 git add README.md
 git commit -m "Inicializando el repositorio con README"
