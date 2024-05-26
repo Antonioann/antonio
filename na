@@ -4,3 +4,8 @@ git init
 git remote add origin https://github.com/tu_usuario/Programa-
 git.git://github.com/tu_usuario/Programa-git.git
 git remote -v-v
+echo "# Programa-git" > README.md
+git add README.md
+git commit -m "Inicializando el repositorio con README"
+git push -u origin master
+
